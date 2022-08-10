@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<line x2="100.0" y2="130.0" x1="100.0" y1="140.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<path d="M 140.0 100.0 A 40 40 0.0 0 1 100.0 140.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<path d="M 140.0 100.0 A 40 40 0.0 0 1 100.0 140.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="130.0" y2="100.0" x1="140.0" y1="100.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100.0" y2="120.0" x1="100.0" y1="130.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100.0" y2="70.0" x1="100.0" y1="60.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100.0" y2="80.0" x1="100.0" y1="70.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="80.0" y2="100.0" x1="70.0" y1="100.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<path d="M 120.0 100.0 A 20 20 0.0 0 1 100.0 120.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<path d="M 100.0 120.0 A 20 20 0.0 0 1 80.0 100.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="100" y2="100" x1="120.0" y1="100.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100" y2="100" x1="80.0" y1="100.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+</svg>

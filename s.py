@@ -12,6 +12,7 @@ for x in range(1, max_width):
         if y + 1 <= max_width:
             G.add_edge(f"{x},{y}", f"{x},{y+1}", weight=-1 * abs(random.random()))
 
+# https://caam37830.github.io/book/05_graphs/networkx.html#spanning-trees
 T = nx.tree.minimum_spanning_tree(G)
 
 print(f'<svg viewBox="0 0 {max_width + 1}0 {max_width + 1}0" xmlns="http://www.w3.org/2000/svg">')

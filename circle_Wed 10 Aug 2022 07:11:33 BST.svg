@@ -1,0 +1,67 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<!-- R0-P0, R0-P1 -->
+<path d="M 100.0 50.0 A 50 50 -888.2643960980422 0 1 132.13938048432698 61.697777844051096" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="100.0" y2="60.0" x1="100.0" y1="50.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="74.28849561253843" y2="69.35822227524088" x1="67.86061951567304" y1="61.697777844051096" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100.0" y2="70.0" x1="100.0" y1="60.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="60.60768987951168" y2="93.05407289332278" x1="50.7596123493896" y1="91.31759111665349" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R1-P1, R1-P2 -->
+<path d="M 74.28849561253844 69.35822227524088 A 40 40 -888.2643960980422 0 1 100.0 60.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="65.35898384862244" y2="119.99999999999997" x1="56.69872981077805" y1="124.99999999999997" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R1-P2, R1-P3 -->
+<path d="M 60.60768987951168 93.05407289332278 A 40 40 -888.2643960980422 0 1 74.28849561253844 69.35822227524088" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="86.31919426697326" y2="137.58770483143633" x1="82.89899283371658" y1="146.98463103929544" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R0-P4, R0-P5 -->
+<path d="M 82.89899283371655 146.9846310392954 A 50 50 -888.2643960980422 0 1 56.69872981077806 124.99999999999999" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="74.01923788646683" y2="114.99999999999997" x1="65.35898384862244" y1="119.99999999999997" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R1-P3, R1-P4 -->
+<path d="M 65.35898384862244 119.99999999999999 A 40 40 -888.2643960980422 0 1 60.60768987951168 93.05407289332277" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<!-- R1-P4, R1-P5 -->
+<path d="M 86.31919426697324 137.58770483143633 A 40 40 -888.2643960980422 0 1 65.35898384862244 119.99999999999999" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="89.73939570022995" y2="128.19077862357724" x1="86.31919426697326" y1="137.58770483143633" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R0-P6, R0-P7 -->
+<path d="M 143.30127018922192 125.00000000000003 A 50 50 -888.2643960980422 0 1 117.10100716628341 146.98463103929544" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="139.39231012048833" y2="93.05407289332281" x1="149.24038765061042" y1="91.3175911166535" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R0-P7, R0-P8 -->
+<path d="M 149.24038765061042 91.3175911166535 A 50 50 -888.2643960980422 0 1 143.30127018922192 125.00000000000003" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="125.98076211353316" y2="115.00000000000001" x1="134.64101615137753" y1="120.00000000000003" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R1-P7, R1-P8 -->
+<path d="M 139.39231012048833 93.0540728933228 A 40 40 -888.2643960980422 0 1 134.64101615137753 120.00000000000003" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="129.54423259036625" y2="94.7905546699921" x1="139.39231012048833" y1="93.05407289332281" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R2-P0, R2-P8 -->
+<path d="M 119.28362829059618 77.01866670643066 A 30 30 -888.2643960980422 0 1 129.54423259036625 94.7905546699921" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<!-- R2-P0, R2-P1 -->
+<path d="M 100.0 70.0 A 30 30 -888.2643960980422 0 1 119.28362829059617 77.01866670643065" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<!-- R2-P1, R2-P2 -->
+<path d="M 80.71637170940383 77.01866670643065 A 30 30 -888.2643960980422 0 1 100.0 70.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="80.30384493975583" y2="96.5270364466614" x1="70.45576740963375" y1="94.79055466999209" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R2-P4, R2-P5 -->
+<path d="M 89.73939570022993 128.19077862357724 A 30 30 -888.2643960980422 0 1 74.01923788646684 114.99999999999999" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<!-- R2-P5, R2-P6 -->
+<path d="M 110.26060429977005 128.19077862357724 A 30 30 -888.2643960980422 0 1 89.73939570022993 128.19077862357724" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<!-- R2-P6, R2-P7 -->
+<path d="M 125.98076211353316 115.00000000000001 A 30 30 -888.2643960980422 0 1 110.26060429977005 128.19077862357724" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="117.32050807568876" y2="110.00000000000001" x1="125.98076211353316" y1="115.00000000000001" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="112.85575219373078" y2="84.67911113762044" x1="119.28362829059617" y1="77.01866670643065" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100.0" y2="90.0" x1="100.0" y1="80.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R3-P0, R3-P1 -->
+<path d="M 100.0 80.0 A 20 20 -888.2643960980422 0 1 112.85575219373078 84.67911113762044" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="93.57212390313461" y2="92.33955556881023" x1="87.14424780626922" y1="84.67911113762044" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R3-P1, R3-P2 -->
+<path d="M 87.14424780626922 84.67911113762044 A 20 20 -888.2643960980422 0 1 100.0 80.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="90.15192246987792" y2="98.26351822333069" x1="80.30384493975583" y1="96.5270364466614" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R3-P2, R3-P3 -->
+<path d="M 80.30384493975583 96.52703644666138 A 20 20 -888.2643960980422 0 1 87.14424780626922 84.67911113762044" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="91.3397459621556" y2="105.0" x1="82.67949192431122" y1="109.99999999999999" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R3-P3, R3-P4 -->
+<path d="M 82.67949192431122 110.0 A 20 20 -888.2643960980422 0 1 80.30384493975583 96.52703644666138" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<!-- R3-P4, R3-P5 -->
+<path d="M 93.15959713348663 118.79385241571816 A 20 20 -888.2643960980422 0 1 82.67949192431122 110.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="96.57979856674332" y2="109.39692620785908" x1="93.15959713348663" y1="118.79385241571816" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="103.42020143325668" y2="109.39692620785908" x1="106.84040286651336" y1="118.79385241571818" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="108.66025403784438" y2="105.0" x1="117.32050807568876" y1="110.00000000000001" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R3-P6, R3-P7 -->
+<path d="M 117.32050807568876 110.00000000000001 A 20 20 -888.2643960980422 0 1 106.84040286651336 118.79385241571816" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="109.84807753012208" y2="98.2635182233307" x1="119.69615506024417" y1="96.5270364466614" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="106.42787609686539" y2="92.33955556881021" x1="112.85575219373078" y1="84.67911113762044" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+</svg>

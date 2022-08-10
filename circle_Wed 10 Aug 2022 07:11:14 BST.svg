@@ -1,0 +1,16 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<!-- R0-P0, R0-P1 -->
+<path d="M 100.0 60.0 A 40 40 -888.2643960980422 0 1 134.64101615137756 120.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="100.0" y2="70.0" x1="100.0" y1="60.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="74.01923788646683" y2="114.99999999999997" x1="65.35898384862244" y1="119.99999999999997" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100.0" y2="80.0" x1="100.0" y1="70.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="125.98076211353316" y2="115.00000000000001" x1="134.64101615137753" y1="120.00000000000003" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="82.67949192431122" y2="109.99999999999999" x1="74.01923788646683" y1="114.99999999999997" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R1-P1, R1-P2 -->
+<path d="M 74.01923788646684 114.99999999999999 A 30 30 -888.2643960980422 0 1 100.0 70.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="100.0" y2="90.0" x1="100.0" y1="80.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<!-- R2-P0, R2-P2 -->
+<path d="M 117.32050807568876 110.00000000000001 A 20 20 -888.2643960980422 0 1 82.67949192431122 110.0" stroke="#aaa" stroke-width="1" stroke-linecap="round" fill="none"/>
+<line x2="91.3397459621556" y2="105.0" x1="82.67949192431122" y1="109.99999999999999" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="108.66025403784438" y2="105.0" x1="117.32050807568876" y1="110.00000000000001" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+</svg>
