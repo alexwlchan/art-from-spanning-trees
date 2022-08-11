@@ -29,8 +29,6 @@ if __name__ == '__main__':
     bounds = get_xy_bounds(G)
     path_commands = get_svg_line_path_commands(T)
 
-    import sys;print(bounds, file=sys.stderr)
-
     styles = {
         'background_color': '#d7ffcc',
         'stroke_color': '#1b7a00',
