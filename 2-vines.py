@@ -4,7 +4,12 @@ import random
 
 import networkx as nx
 
-from core import generate_spanning_tree_graph, get_svg_line_path_commands, get_xy_bounds, render_svg
+from core import (
+    generate_spanning_tree_graph,
+    get_svg_line_path_commands,
+    get_xy_bounds,
+    render_svg,
+)
 
 
 def generate_vines_graph(*, rows, columns):
@@ -22,7 +27,7 @@ def generate_vines_graph(*, rows, columns):
     return adjusted_G
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     G = generate_vines_graph(rows=10, columns=8)
     T = generate_spanning_tree_graph(G)
 
@@ -30,9 +35,9 @@ if __name__ == '__main__':
     path_commands = get_svg_line_path_commands(T)
 
     styles = {
-        'background_color': '#d7ffcc',
-        'stroke_color': '#1b7a00',
-        'stroke_width': abs(random.uniform(0.01, 0.7))
+        "background_color": "#d7ffcc",
+        "stroke_color": "#1b7a00",
+        "stroke_width": abs(random.uniform(0.01, 0.7)),
     }
 
     print(render_svg(path_commands, bounds, styles))

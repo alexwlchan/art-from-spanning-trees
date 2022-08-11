@@ -24,18 +24,21 @@ def render_svg(path_commands, bounds, styles=None):
 
     # We add a border of 1 unit around the bounding box, so all the
     # lines should be inside the graph
-    width = bounds['width'][1] - bounds['width'][0] + 2
-    height = bounds['height'][1] - bounds['height'][0] + 2
+    width = bounds["width"][1] - bounds["width"][0] + 2
+    height = bounds["height"][1] - bounds["height"][0] + 2
 
-    if 'background_color' in styles:
+    if "background_color" in styles:
         style = f' style="background-color: {styles["background_color"]};"'
     else:
-        style = ''
+        style = ""
 
-    lines = [f'<svg viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg"{style}>']
+    lines = [
+        f'<svg viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg"{style}>'
+    ]
 
     # Add some styles so we can see what we're drawing.
-    lines.append(f'''
+    lines.append(
+        f"""
     <defs>
       <style>
         path {{
@@ -46,29 +49,30 @@ def render_svg(path_commands, bounds, styles=None):
         }}
       </style>
     </defs>
-    ''')
+    """
+    )
 
     # Translate all the paths so they're not right on the edge of
     # the image.
-    x_adjustment = 1 - bounds['width'][0]
-    y_adjustment = 1 - bounds['height'][0]
+    x_adjustment = 1 - bounds["width"][0]
+    y_adjustment = 1 - bounds["height"][0]
     lines.append(f'<svg x="{x_adjustment}" y="{y_adjustment}">')
 
     for command in path_commands:
         lines.append(f'<path d="{command}"/>')
 
     # Close the adjustment SVG
-    lines.append('</svg>')
+    lines.append("</svg>")
 
     # Close the overall SVG
-    lines.append('</svg>')
+    lines.append("</svg>")
 
-    return '\n'.join(lines)
+    return "\n".join(lines)
 
 
 def get_svg_line_path_commands(square_G):
     for ((x1, y1), (x2, y2)) in square_G.edges:
-        yield f'M {x1},{y1} L {x2},{y2}'
+        yield f"M {x1},{y1} L {x2},{y2}"
 
 
 def get_xy_bounds(G):
@@ -78,7 +82,4 @@ def get_xy_bounds(G):
     max_width = max(x for (x, _) in G.nodes)
     max_height = max(y for (_, y) in G.nodes)
 
-    return {
-        'width': (min_width, max_width),
-        'height': (min_height, max_height)
-    }
+    return {"width": (min_width, max_width), "height": (min_height, max_height)}
