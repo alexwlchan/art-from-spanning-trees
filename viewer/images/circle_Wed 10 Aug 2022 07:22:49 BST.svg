@@ -1,0 +1,22 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<line x2="147.55282581475768" y2="84.54915028125265" x1="100.0" y1="50.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="52.447174185242325" y2="84.54915028125262" x1="100.0" y1="50.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="61.95773934819386" y2="87.6393202250021" x1="100.0" y1="60.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100.0" y2="70.0" x1="100.0" y1="60.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="76.48858990830107" y2="132.3606797749979" x1="70.61073738537634" y1="140.45084971874735" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="76.48858990830107" y2="132.3606797749979" x1="61.95773934819386" y1="87.6393202250021" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="123.51141009169892" y2="132.3606797749979" x1="129.38926261462365" y1="140.45084971874738" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="123.51141009169892" y2="132.3606797749979" x1="76.48858990830107" y1="132.3606797749979" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="138.04226065180615" y2="87.63932022500211" x1="147.55282581475768" y1="84.54915028125265" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="138.04226065180615" y2="87.63932022500211" x1="123.51141009169892" y1="132.3606797749979" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="128.5316954888546" y2="90.72949016875158" x1="138.04226065180615" y1="87.63932022500211" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100.0" y2="80.0" x1="100.0" y1="70.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="82.3664424312258" y2="124.27050983124842" x1="71.46830451114539" y1="90.72949016875157" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="80.97886967409693" y2="93.81966011250105" x1="71.46830451114539" y1="90.72949016875157" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="111.75570504584945" y2="116.18033988749895" x1="117.6335575687742" y1="124.27050983124843" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="119.02113032590307" y2="93.81966011250105" x1="100.0" y1="80.0" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="88.24429495415053" y2="116.18033988749895" x1="80.97886967409693" y1="93.81966011250105" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100" y2="100" x1="88.24429495415053" y1="116.18033988749895" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100" y2="100" x1="111.75570504584945" y1="116.18033988749895" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+<line x2="100" y2="100" x1="119.02113032590307" y1="93.81966011250105" stroke="#aaa" stroke-width="1" stroke-linecap="round"/>
+</svg>
