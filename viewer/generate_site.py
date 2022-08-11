@@ -6,21 +6,25 @@ from xml.etree import ElementTree as ET
 
 
 LATEST_CAPTION = {
-    "date": datetime.date(2022, 8, 10),
-    "text": "more spider-web graphs, but with even more options. in particular, i realised i could have the curves bend inwards (like the <a href=\"https://emojipedia.org/spider-web/\">cobweb emoji</a>), or even alternate in-out. i really like some of the unexpected variations in this set"
+    "date": datetime.date(2022, 8, 11),
+    "text": "somebody asked if i was drawing complete graphs. i’m not, but it gave me an idea: what if i sometimes delete some nodes before finding a spanning tree?"
 }
 
 CAPTIONS = {
+    "out_Thu 11 Aug 2022 22:42:04 BST.svg": {
+        "date": datetime.date(2022, 8, 11),
+        "text": "more spider-web graphs, but with even more options. in particular, i realised i could have the curves bend inwards (like the <a href=\"https://emojipedia.org/spider-web/\">cobweb emoji</a>), or even alternate in-out. i really like some of the unexpected variations in this set"
+    },
     "out.18.svg": {
-        "date": datetime.date(2022, 8, 10),
+        "date": datetime.date(2022, 8, 11),
         "text": "<p>i worked out how to draw <a href=\"https://alexwlchan.net/2022/08/circle-party/\">circular arcs</a>, and i revisited my code for drawing spiderweb-like pictures. toss in some fun colours, and i think it’s a really nice batch.</p><p>some favourites include:</p><ul><li>the thin yellow circular one that looks like a minimalist logo</li><li>the blue hexagon that feels like a naval logo</li><li>the sea green circles that feel like a radar screen</li><li>the green circles that feel like a computer interface from an action movie</li></ul>"
     },
     "vines.3.svg": {
-        "date": datetime.date(2022, 8, 10),
+        "date": datetime.date(2022, 8, 11),
         "text": "the triangular lattice graphs felt a bit like hedges or vines, so i added a shade of green"
     },
     "out.8 2.svg": {
-        "date": datetime.date(2022, 8, 10),
+        "date": datetime.date(2022, 8, 11),
         "text": "somebody told me that the square lattice diagrams looked like pictograms from a made-up language, so while i was tidying up the code i added a shade of brown that feels vaguely evocative of chinese writing to me"
     },
     "circle_Wed 10 Aug 2022 12:54:14 BST.svg": {
@@ -61,7 +65,7 @@ def find_svg_paths():
 
 
 def get_time(p):
-    if 'Aug 2022' in p:
+    if '10 Aug 2022' in p:
         timestamp = p.split()[4]
         hour, minute, second = timestamp.split(':')
 

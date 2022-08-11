@@ -83,3 +83,9 @@ def get_xy_bounds(G):
     max_height = max(y for (_, y) in G.nodes)
 
     return {"width": (min_width, max_width), "height": (min_height, max_height)}
+
+
+def delete_some_nodes(G):
+    nodes = random.sample(list(G.nodes), random.randint(1, 10))
+    for n in nodes:
+        G.remove_node(n)

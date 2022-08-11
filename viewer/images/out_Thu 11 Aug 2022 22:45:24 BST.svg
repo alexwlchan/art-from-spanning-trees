@@ -1,0 +1,23 @@
+<svg viewBox="0 0 5 5" xmlns="http://www.w3.org/2000/svg" style="background-color: #ffece0;">
+
+    <defs>
+      <style>
+        path {
+          stroke: #a33f00;
+          stroke-width: 0.6308987708502856;
+          stroke-linecap: round;
+          fill: none;
+        }
+      </style>
+    </defs>
+    
+<svg x="0" y="0">
+<path d="M 2,1 L 2,2"/>
+<path d="M 2,2 L 3,2"/>
+<path d="M 3,2 L 3,3"/>
+<path d="M 4,2 L 4,3"/>
+<path d="M 4,2 L 4,1"/>
+<path d="M 3,3 L 4,3"/>
+<path d="M 4,3 L 4,4"/>
+</svg>
+</svg>

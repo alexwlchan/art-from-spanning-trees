@@ -5,6 +5,7 @@ import random
 import networkx as nx
 
 from core import (
+    delete_some_nodes,
     generate_spanning_tree_graph,
     get_svg_line_path_commands,
     get_xy_bounds,
@@ -24,11 +25,16 @@ def generate_square_graph(*, rows, columns):
     for (start_x, start_y), (end_x, end_y) in G.edges:
         adjusted_G.add_edge((start_x + 1, start_y + 1), (end_x + 1, end_y + 1))
 
+    # Previously we'd always draw complete graphs.
+    # What if we start deleting some nodes?
+    if random.random() > 0.85:
+        delete_some_nodes(G)
+
     return adjusted_G
 
 
 if __name__ == "__main__":
-    G = generate_square_graph(rows=3, columns=3)
+    G = generate_square_graph(rows=5, columns=5)
     T = generate_spanning_tree_graph(G)
 
     bounds = get_xy_bounds(G)

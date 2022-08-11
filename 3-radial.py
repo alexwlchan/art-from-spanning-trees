@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import colorsys
 import math
 import random
 import re
@@ -7,6 +8,7 @@ import re
 import networkx as nx
 
 from core import (
+    delete_some_nodes,
     generate_spanning_tree_graph,
     get_svg_line_path_commands,
     get_xy_bounds,
@@ -50,6 +52,11 @@ def generate_radial_graph(*, ring_count, spoke_count, include_centre):
             # point on the next innermost ring.
             if ring_number > 1:
                 G.add_edge(this_point, f"R{ring_number - 1}-S{spoke_number}")
+
+    # Previously we'd always draw complete graphs.
+    # What if we start deleting some nodes?
+    if random.random() > 0.85:
+        delete_some_nodes(G)
 
     return G
 
@@ -228,9 +235,13 @@ if __name__ == "__main__":
         ),
     )
 
+    hls = (random.uniform(0.0, 1.0), random.uniform(0.6, 0.95), random.uniform(0.6, 0.95))
+    r, g, b = colorsys.hls_to_rgb(*hls)
+    red, green, blue = round(r * 255), round(g * 255), round(b * 255)
+
     styles = {
         "background_color": "#222",
-        "stroke_color": "#006aff",
+        "stroke_color": "#%02x%02x%02x" % (red, green, blue),
         "stroke_width": abs(random.uniform(0.01, 0.5)),
     }
 
