@@ -86,6 +86,6 @@ def get_xy_bounds(G):
 
 
 def delete_some_nodes(G):
-    nodes = random.sample(list(G.nodes), random.randint(1, 10))
+    nodes = random.sample(list(G.nodes), random.randint(1, len(G.nodes) // 5))
     for n in nodes:
         G.remove_node(n)
