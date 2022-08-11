@@ -1,5 +1,7 @@
 import random
 
+import networkx as nx
+
 
 def generate_spanning_tree_graph(G, *, rand=None):
     if rand is None:
@@ -62,3 +64,21 @@ def render_svg(path_commands, bounds, styles=None):
     lines.append('</svg>')
 
     return '\n'.join(lines)
+
+
+def get_svg_line_path_commands(square_G):
+    for ((x1, y1), (x2, y2)) in square_G.edges:
+        yield f'M {x1},{y1} L {x2},{y2}'
+
+
+def get_xy_bounds(G):
+    min_width = min(x for (x, _) in G.nodes)
+    min_height = min(y for (_, y) in G.nodes)
+
+    max_width = max(x for (x, _) in G.nodes)
+    max_height = max(y for (_, y) in G.nodes)
+
+    return {
+        'width': (min_width, max_width),
+        'height': (min_height, max_height)
+    }

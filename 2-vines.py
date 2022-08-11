@@ -7,8 +7,8 @@ import networkx as nx
 from core import generate_spanning_tree_graph, get_svg_line_path_commands, get_xy_bounds, render_svg
 
 
-def generate_square_graph(*, rows, columns):
-    G = nx.grid_2d_graph(rows + 1, columns + 1)
+def generate_vines_graph(*, rows, columns):
+    G = nx.triangular_lattice_graph(rows + 2, columns + 2)
 
     # The networkx generated square lattice starts at (0, 0).
     #
@@ -23,15 +23,17 @@ def generate_square_graph(*, rows, columns):
 
 
 if __name__ == '__main__':
-    G = generate_square_graph(rows=3, columns=3)
+    G = generate_vines_graph(rows=10, columns=8)
     T = generate_spanning_tree_graph(G)
 
     bounds = get_xy_bounds(G)
     path_commands = get_svg_line_path_commands(T)
 
+    import sys;print(bounds, file=sys.stderr)
+
     styles = {
-        'background_color': '#ffece0',
-        'stroke_color': '#a33f00',
+        'background_color': '#d7ffcc',
+        'stroke_color': '#1b7a00',
         'stroke_width': abs(random.uniform(0.01, 0.7))
     }
 
