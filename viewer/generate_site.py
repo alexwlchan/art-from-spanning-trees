@@ -5,7 +5,24 @@ import os
 from xml.etree import ElementTree as ET
 
 
+LATEST_CAPTION = {
+    "date": datetime.date(2022, 8, 10),
+    "text": "more spider-web graphs, but with even more options. in particular, i realised i could have the curves bend inwards (like the <a href=\"https://emojipedia.org/spider-web/\">cobweb emoji</a>), or even alternate in-out. i really like some of the unexpected variations in this set"
+}
+
 CAPTIONS = {
+    "out.18.svg": {
+        "date": datetime.date(2022, 8, 10),
+        "text": "<p>i worked out how to draw <a href=\"https://alexwlchan.net/2022/08/circle-party/\">circular arcs</a>, and i revisited my code for drawing spiderweb-like pictures. toss in some fun colours, and i think it’s a really nice batch.</p><p>some favourites include:</p><ul><li>the thin yellow circular one that looks like a minimalist logo</li><li>the blue hexagon that feels like a naval logo</li><li>the sea green circles that feel like a radar screen</li><li>the green circles that feel like a computer interface from an action movie</li></ul>"
+    },
+    "vines.3.svg": {
+        "date": datetime.date(2022, 8, 10),
+        "text": "the triangular lattice graphs felt a bit like hedges or vines, so i added a shade of green"
+    },
+    "out.8 2.svg": {
+        "date": datetime.date(2022, 8, 10),
+        "text": "somebody told me that the square lattice diagrams looked like pictograms from a made-up language, so while i was tidying up the code i added a shade of brown that feels vaguely evocative of chinese writing to me"
+    },
     "circle_Wed 10 Aug 2022 12:54:14 BST.svg": {
         "date": datetime.date(2022, 8, 10),
         "text": "i tried to make some spider’s web-like graphs, but with straight edges instead of curves. these start to look quite interesting, but i was still working out the kinks &ndash; these graphs aren’t always connected, and sometimes there are loops"
@@ -95,6 +112,10 @@ if __name__ == '__main__':
         width: 150px;
         height: 150px;
     }
+
+    h2 {
+        margin-top: 3em;
+    }
     </style>
     ''')
 
@@ -113,13 +134,23 @@ if __name__ == '__main__':
 
     <p>made with &lt;3 by <a href="https://alexwlchan.net">alexwlchan</a>. code on <a href="https://github.com/alexwlchan/art-from-spanning-trees">github</a></p>
 
-    <hr/>
+    <h2>the pictures, newest first</h2>
     ''')
+
+    # lines.append(f"<p><strong>{caption['date'].strftime('%d %B %Y').lower()} / </strong> {caption['text']}</p>")
+    if '<p>' not in LATEST_CAPTION['text']:
+        lines.append(f"<p>{LATEST_CAPTION['text']}</p>")
+    else:
+        lines.append(LATEST_CAPTION['text'])
 
     for p in svg_paths:
         if os.path.basename(p) in CAPTIONS:
             caption = CAPTIONS[os.path.basename(p)]
-            lines.append(f"<p><strong>{caption['date'].strftime('%d %B %Y').lower()} / </strong> {caption['text']}</p>")
+            # lines.append(f"<p><strong>{caption['date'].strftime('%d %B %Y').lower()} / </strong> {caption['text']}</p>")
+            if '<p>' not in caption['text']:
+                lines.append(f"<p>{caption['text']}</p>")
+            else:
+                lines.append(caption['text'])
         lines.append(f'<a href="/{p}"><img src="/{p}"></a>')
 
     lines.append('</html>')
