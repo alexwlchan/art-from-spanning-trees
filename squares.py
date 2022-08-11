@@ -53,7 +53,6 @@ def generate_spanning_tree_graph(G, *, rand=None):
 
 
 def render_svg(path_commands, bounds, styles=None):
-
     if styles is None:
         styles = {}
 
