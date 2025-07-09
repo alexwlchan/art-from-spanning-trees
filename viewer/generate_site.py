@@ -155,7 +155,7 @@ if __name__ == '__main__':
                 lines.append(f"<p>{caption['text']}</p>")
             else:
                 lines.append(caption['text'])
-        lines.append(f'<a href="/{p}"><img src="/{p}"></a>')
+        lines.append(f'<a href="{p}"><img src="{p}"></a>')
 
     lines.append('</html>')
 
